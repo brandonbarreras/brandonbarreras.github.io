@@ -1,0 +1,126 @@
+:root {
+	--banner-color: #00cae0;
+}
+
+
+h1 { color: white; }
+body { font-family: sans-serif; }
+p { margin-left:10em; margin-right:10em }
+ol { margin-left:10em; margin-right:10em }
+.header {
+	height: 110px;
+	background-color: var(--banner-color);
+	margin-bottom: 10px;
+
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: hotpink;
+}
+
+.footer a:link {
+	/*color: white;*/
+	text-decoration: none;
+}
+
+.footer a:visited {
+	color: white;
+}
+
+.footer a:hover {
+	color: hotpink;
+}
+
+.float-right {
+	float: right;
+	width: 50px;
+	height: 50px;
+}
+
+.float-left {
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+
+.footer{
+	font-size: 20px;
+	color: white;
+	background-color: var(--banner-color);
+
+}
+
+#about-photos {
+	display: flex;
+}
+#about-photo1 {
+	flex-shrink: 50%;
+
+	/*margin-right: 5px;*/
+	/* Just so it's visible */
+}
+#about-photo2 {
+	flex: 1;
+	/* Grow to rest of container */
+	/* Just so it's visible */
+}
+
+.step-photo {
+	height: 100px;
+	width: 100px;
+
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+
+
+}
+
+.flex-partial {
+
+	display: flex;
+	justify-content: center;
+	flex: 1 0 40%;
+}
+
+.flex-img
+{
+	display: flex;
+	justify-content: center;
+	flex: 1 0 12%;
+}
+
+
+.flex-text {
+	flex: 1 0 28%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+}
+
+.flex-space {
+	flex: 1 0 10%;
+	display: flex;
+
+}

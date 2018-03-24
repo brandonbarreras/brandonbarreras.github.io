@@ -4,7 +4,7 @@
 
 @font-face{
 	font-family:bebas-neue;
-	src: url(./bebas_neue/BebasNeueRegular.ttf) format "truetype";
+	src: url(./fonts/bebas_neue/BebasNeueBold.otf);
 }
 
 
@@ -21,7 +21,7 @@ span { font-family: sans-serif; }
 p { margin-left:10em; margin-right:10em }
 ol { margin-left:10em; margin-right:10em }
 .header {
-	height: 110px;
+	height: 90px;
 	background-color: var(--banner-color);
 	margin-bottom: 10px;
 
@@ -66,7 +66,11 @@ a:hover {
 }
 
 .footer{
-	font-size: 20px;
+	height: 40px;
+	/*size: 20px;*/
+	border-top: solid;
+	border-bottom: solid;
+
 	color: white;
 	background-color: var(--banner-color);
 	font-family: bebas-neue; 
@@ -84,8 +88,6 @@ a:hover {
 }
 #about-photo2 {
 	flex: 1;
-	/* Grow to rest of container */
-	/* Just so it's visible */
 }
 
 .step-photo {

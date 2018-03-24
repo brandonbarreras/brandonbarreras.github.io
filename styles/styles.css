@@ -2,9 +2,22 @@
 	--banner-color: #00cae0;
 }
 
+@font-face{
+	font-family:bebas-neue;
+	src: url(./bebas_neue/BebasNeueRegular.ttf) format "truetype";
+}
 
-h1 { color: white; }
-body { font-family: sans-serif; }
+
+h1 { 
+	color: white; 
+	font-family: bebas-neue; 
+}
+
+
+h3 { 
+	font-family: bebas-neue; 
+}
+span { font-family: sans-serif; }
 p { margin-left:10em; margin-right:10em }
 ol { margin-left:10em; margin-right:10em }
 .header {
@@ -56,6 +69,7 @@ a:hover {
 	font-size: 20px;
 	color: white;
 	background-color: var(--banner-color);
+	font-family: bebas-neue; 
 
 }
 
